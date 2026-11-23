@@ -34,8 +34,5 @@ MySQL 8, Power BI
 - Weeks with no record in the display/mailer file are assumed to have no support
 - Early weeks have fewer active households; checked by re-running from week 15
 
-## Dashboard
-
-
 ## How to reproduce
 Run the files in `sql/` in order (MySQL 8+).
