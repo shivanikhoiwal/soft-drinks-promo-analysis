@@ -24,8 +24,7 @@ ORDER BY sales DESC
 LIMIT 25;
 
 /*2. Working view: soft drinks purchases only
-disc = total discount on the purchase (retailer discount + coupon match;
-stored as negative numbers in the raw data, so the sign is flipped)
+disc = total discount on the purchase (retailer discount + coupon match; stored as negative numbers in the raw data, so the sign is flipped)
 shelf_total = price before discounts (what was paid + the discount)
 Rows with zero/negative quantity or non-positive shelf price are dropped.*/
 DROP VIEW IF EXISTS cat_tx;
